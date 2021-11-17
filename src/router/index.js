@@ -30,19 +30,19 @@ export const routes = [
         component: () => import("views/home.vue"),
         name: "Home",
         meta: { title: "首页", icon: "el-icon-s-home" },
-        children: [
-          {
-            path: ":id",
-            component: () => import("views/detail.vue"),
-            name: "Detail",
-            hidden: true,
-            meta: {
-              title: "详情",
-              icon: "el-icon-s-home",
-              activeMenu: "/home",
-            },
-          },
-        ],
+        // children: [
+        //   {
+        //     path: ":id",
+        //     component: () => import("views/detail.vue"),
+        //     name: "Detail",
+        //     hidden: true,
+        //     meta: {
+        //       title: "详情",
+        //       icon: "el-icon-s-home",
+        //       activeMenu: "/home",
+        //     },
+        //   },
+        // ],
       },
     ],
   },
