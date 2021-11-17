@@ -12,7 +12,7 @@ jobs:
       # 获取源码
       - name: 迁出代码
       # 使用action库 actions/checkout 获取源码
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
 
       # 安装node10
 
